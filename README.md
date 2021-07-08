@@ -36,10 +36,10 @@ from the device.
    
   pin connections
    
-  Longan Nano      	    BMP280(from adafruit)
-  SPI0_SCK(PA5)	<--->	  CS
-	SPI0_MISO(PA6)	<--->	SDO
-	SPI0_MOSI(PA7)	<--->	SDI
-	CS(Here I use PB0)<-->	CS
-	V5				<--->	      VIN
-	GND				<--->	      GND
+Longan Nano      	BMP280(from adafruit)
+SPI0_SCK(PA5)	<--->	CS
+SPI0_MISO(PA6)	<--->	SDO
+SPI0_MOSI(PA7)	<--->	SDI
+CS(Here I use PB0)<-->	CS
+V5		<--->	VIN
+GND		<--->	GND
