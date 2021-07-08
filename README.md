@@ -1,15 +1,14 @@
 # sipeed-longan-nano-USB-CDC-SPI
 this project use SPI to get a temperature value from a BMP280 temperature module,   and then use USB CDC to sent it to a host (PC or Android)
 modified from a example project of GD32VF103(GigaDevice Semiconductor Inc)
-    this project use SPI to get a temperature value from a BMP280 temperature module,
-    and then use USB CDC to sent it to a host (PC or Android)
+
 
     chip:GD32VF103CBT6 ( or  GD32VF103VBT6)
     board:sipeed Longan Nano (you can also use GD32VF103V-EVAL-V1.0 board which has GD32VF103VBT6 on it.
     the linker is same. but the pinouts has a little difference)
 
 
-	created by mzhu thru cloning CDC_ACM example from GD32VF103 example projects.
+created by mzhu thru basing on CDC_ACM example from GD32VF103 example projects.
 
    This example is based on the GD32VF103V-EVAL-V1.0 board(I use sipeed Longan Nano),it provides a description of 
  how to use the USBFS and SPI.
